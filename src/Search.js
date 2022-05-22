@@ -5,10 +5,9 @@ import 'react-date-range/dist/styles.css';
 import 'react-date-range/dist/theme/default.css';
 import Button from '@mui/material/Button';
 import HailIcon from '@mui/icons-material/Hail';
-import { useHistory } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
 
 function Search() {
-    const history = useHistory();
     const [startDate, setStartDate] = useState(new Date());
     const [endDate, setEndDate] = useState(new Date());
 
@@ -29,7 +28,7 @@ function Search() {
             Number of guests<HailIcon />
         </h2>
         <input min={0} defaultValue={2} type="number"/>
-        <Button onClick={() => history.push('/search')}>Search airbnb</Button>
+        <Button></Button>
         
     </div>
   )
