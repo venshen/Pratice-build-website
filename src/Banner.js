@@ -7,13 +7,13 @@ import Search from './Search';
 
 function Banner() {
     // const history = useHistory();
-    const [showSearch, setShowSearch] = useState(false);
+    // const [showSearch, setShowSearch] = useState(false);
   return (
     <div className="Banner">
-        <div className="Banner_search">
+        {/* <div className="Banner_search">
             {showSearch && <Search />}
             <Button  onClick={() => setShowSearch(!showSearch)} className="Banner_searchButton" variant="outlined">{showSearch ? "Hide": "Search Date"}</Button>
-        </div>
+        </div> */}
 
         <div className="Banner_info">
             <h1>Get out and stretch your imaginaion</h1>
